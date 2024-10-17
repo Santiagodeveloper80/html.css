@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #6e6c6c;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+            box-shadow: inset 5px 5px 20px 1px #00000079;
+            border-radius: 30px;
+            width: 600px;
+            margin: auto;
+        }
+
+        nav{
+            background-color: #4b4a4a;
+            box-shadow: 5px 5px 5px #0000006c;
+            margin-top: 20px;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            padding-left: 10px;
+        }
+
+        nav > a:hover{
+            color: rgb(209, 204, 204);
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        aside > p{
+            background-color: #4b4a4a;
+            color: white;
+            padding: 3px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px #0000006c;
+        }
+
+        #noticias{
+            background-color: #bbb7b7;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="perfil.PNG" alt="minha foto">
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esporte Política Economia Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Bahia</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus aliquid dolorum consequatur, quibusdam deleniti ex delectus nemo cum, ipsa eveniet alias vitae quas dolorem! Officia veniam eum facilis tempora cumque?</p>
+                <aside>
+                    <p>Escrito por Paulo Santiago</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Paulo Santiago</p>
+    </footer>
+</body>
+</html>
